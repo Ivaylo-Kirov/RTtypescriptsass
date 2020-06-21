@@ -9,6 +9,7 @@ const App: React.FC = () => {
       <h1>TypeScript</h1>
       <div>{count}</div>
       <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
     </div>
   );
 }
